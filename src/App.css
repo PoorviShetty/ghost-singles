@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+body {
+  background-color: #0e518f;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  padding-top: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.headerContent {
+  /* padding-left: 1rem;
+  padding-right: 1rem;
+  min-height: 1.5rem; */
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex: 1;
+}
+
+.headerContent img {
+  height: 3rem;
+  margin-top: auto;
+}
+
+.main {
+  padding: 2rem;
+}
+
+.right {
+  float: right;
+  margin-top: auto;
+}
+
+.mainGrid {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.mainPaper {
+  width: 100%;
+  min-height: 98vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mainContent {
+  min-height: 75vh;
+}
+
+.tc {
+  height: 300px;
+  overflow-y: scroll;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.tipsImage {
+  padding: 0.5rem;
+  padding-top: 4rem;
+  border-left: 1px solid #ddd;
+  height: 75vh;
+}
+
+.searchCol {
+  padding: 0.5rem;
+  padding-right: 1rem;
+}
+
+.tipsImage img,
+.ladyImage img {
+  width: 100%;
+}
+
+.homeText {
+  padding-top: 2rem;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
 }
