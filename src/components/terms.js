@@ -10,7 +10,7 @@ export default function Terms() {
             <h1>Terms of Use</h1>
             <p>By using this site, you agree to ALL the following:</p>
             <p>
-                <div class="tc">
+                <div className="tc">
                     <p>You agree to hold GhostSingles.com unaccountable for any problems you may have with this site, including, but not limited to:</p>
                     <p>
                     <ul>

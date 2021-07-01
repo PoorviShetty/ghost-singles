@@ -1,0 +1,479 @@
+[
+  {
+    "key": 0,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "both",
+    "gender": "neither",
+    "age": 699,
+    "about": "Velit nostrud consectetur ad excepteur est do anim non nostrud qui irure consequat elit. Duis dolor adipisicing nostrud laboris. Cillum in Lorem reprehenderit excepteur do laborum in aliquip qui officia nisi deserunt. Sit est velit laboris ea sunt esse cupidatat officia est. Nostrud sit consequat enim enim culpa officia velit do nisi enim irure quis officia quis. Ad officia ea culpa laboris ut dolor dolore eiusmod. Minim officia aute mollit mollit consequat qui aliquip incididunt ullamco quis sunt.\r\n",
+    "died": "suddenly"
+  },
+  {
+    "key": 1,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "neither",
+    "gender": "neither",
+    "age": 104,
+    "about": "Adipisicing exercitation sint minim veniam est deserunt occaecat velit deserunt. Do ea reprehenderit velit eiusmod cillum adipisicing mollit consectetur veniam proident occaecat. Incididunt est proident consequat consequat. Sit voluptate officia anim proident nostrud velit proident cillum occaecat aliquip occaecat duis. Consequat sint id pariatur ipsum occaecat.\r\n",
+    "died": "mysteriously"
+  },
+  {
+    "key": 2,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "male",
+    "gender": "male",
+    "age": 709,
+    "about": "Sint et id in incididunt. Aliqua eu ad adipisicing do fugiat mollit pariatur minim labore nostrud dolor Lorem adipisicing quis. Elit fugiat voluptate in deserunt fugiat ad. Nulla eiusmod fugiat sit ad dolor ipsum velit velit officia. Fugiat Lorem dolor adipisicing qui Lorem nulla commodo aliquip laborum deserunt consectetur sunt velit.\r\n",
+    "died": "mysteriously"
+  },
+  {
+    "key": 3,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "both",
+    "gender": "both",
+    "age": 253,
+    "about": "Dolore occaecat ad quis ex proident nostrud nulla dolor laboris. In incididunt est ullamco labore sit incididunt eiusmod amet irure est eu mollit adipisicing proident. Cillum in magna cillum dolor reprehenderit aliquip cupidatat consequat laborum ea id occaecat.\r\n",
+    "died": "mysteriously"
+  },
+  {
+    "key": 4,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "female",
+    "gender": "female",
+    "age": 713,
+    "about": "Deserunt anim minim cillum officia consectetur cupidatat labore occaecat do qui. Elit aliquip amet ex mollit veniam dolore nostrud consequat occaecat mollit ullamco occaecat occaecat. Aliquip irure pariatur anim dolor duis. Ad non deserunt adipisicing sunt ullamco enim laboris excepteur magna eu ullamco sunt ex.\r\n",
+    "died": "mysteriously"
+  },
+  {
+    "key": 5,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "neither",
+    "gender": "neither",
+    "age": 959,
+    "about": "Ad quis eiusmod occaecat do dolore tempor consectetur consectetur sint non anim minim anim. Sint dolore qui ipsum officia eiusmod. Sit labore do occaecat proident duis nulla fugiat deserunt enim voluptate. Lorem pariatur velit ea cillum excepteur dolor fugiat.\r\n",
+    "died": "mysteriously"
+  },
+  {
+    "key": 6,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "both",
+    "gender": "female",
+    "age": 250,
+    "about": "In in laboris fugiat aute dolor sit magna incididunt excepteur reprehenderit consequat laboris ea. Pariatur consectetur do est aliqua culpa in cupidatat magna cillum sunt do adipisicing nisi aliqua. Voluptate esse do cillum eiusmod anim aliquip proident cupidatat proident sunt est mollit deserunt. Fugiat consequat fugiat Lorem non laboris dolor esse ullamco dolore tempor eu duis. Elit cillum ullamco ex id officia nulla qui eiusmod deserunt exercitation. Et deserunt qui eu et ut ad mollit eu reprehenderit deserunt. Fugiat fugiat reprehenderit veniam enim ad aliqua aliquip irure occaecat non commodo.\r\n",
+    "died": "tragically"
+  },
+  {
+    "key": 7,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "neither",
+    "gender": "both",
+    "age": 281,
+    "about": "In dolore est enim eu nisi. Magna qui ea enim ullamco adipisicing magna amet laboris exercitation amet nulla amet. Veniam nostrud qui anim et consectetur mollit.\r\n",
+    "died": "horribly"
+  },
+  {
+    "key": 8,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "both",
+    "gender": "female",
+    "age": 872,
+    "about": "Culpa qui id aliquip laboris occaecat magna magna mollit Lorem consectetur nulla consectetur. Nostrud incididunt laboris aliqua eu do et ipsum eiusmod et do. Sint sint dolor eiusmod reprehenderit.\r\n",
+    "died": "suddenly"
+  },
+  {
+    "key": 9,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "both",
+    "gender": "neither",
+    "age": 511,
+    "about": "Reprehenderit do duis tempor consequat ad proident eiusmod. Exercitation cillum enim commodo et sint esse pariatur nisi minim ad nisi do. Ut laborum qui deserunt sunt ad nulla adipisicing irure.\r\n",
+    "died": "suddenly"
+  },
+  {
+    "key": 10,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "male",
+    "gender": "male",
+    "age": 962,
+    "about": "Pariatur est exercitation aute voluptate dolore enim enim in dolore ut. Quis enim laboris excepteur exercitation eiusmod velit nulla adipisicing commodo occaecat cupidatat elit eiusmod. Est ea eiusmod culpa aute labore adipisicing sunt aliquip.\r\n",
+    "died": "tragically"
+  },
+  {
+    "key": 11,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "male",
+    "gender": "female",
+    "age": 183,
+    "about": "Cupidatat dolor cillum ex in id do nisi sit exercitation exercitation est non voluptate. In consequat tempor nostrud sint ipsum nisi nisi aliqua. Pariatur qui ad consequat labore ut Lorem irure voluptate aliqua deserunt ullamco exercitation exercitation. Duis deserunt consectetur minim minim velit aute tempor anim. Non labore occaecat culpa dolore veniam cillum. Labore eiusmod dolore ipsum ipsum consectetur ex eiusmod Lorem incididunt consequat.\r\n",
+    "died": "horribly"
+  },
+  {
+    "key": 12,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "both",
+    "gender": "female",
+    "age": 820,
+    "about": "Cillum consectetur irure aliqua ex quis ea labore consequat ad do non voluptate. Ut veniam proident qui mollit id voluptate pariatur sit proident quis. Est eu in aliqua consequat incididunt exercitation aliquip amet amet Lorem deserunt ipsum. Nisi cupidatat sint reprehenderit fugiat Lorem mollit duis aliqua ullamco cillum dolore ad. Incididunt qui irure proident ullamco.\r\n",
+    "died": "suddenly"
+  },
+  {
+    "key": 13,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "both",
+    "gender": "neither",
+    "age": 160,
+    "about": "Magna sunt enim aute veniam. Proident non proident laborum qui ullamco. Veniam nisi sint fugiat tempor adipisicing dolore culpa.\r\n",
+    "died": "horribly"
+  },
+  {
+    "key": 14,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "neither",
+    "gender": "neither",
+    "age": 880,
+    "about": "Aliquip quis duis proident nulla do quis reprehenderit dolore ut eiusmod. Culpa et anim nostrud cillum. Ex irure consequat voluptate velit. Aliqua elit sunt consequat nulla deserunt Lorem enim proident ipsum Lorem. Aliquip laborum nisi deserunt adipisicing deserunt ex irure amet cupidatat. Est laborum cupidatat do non enim esse adipisicing aute minim.\r\n",
+    "died": "mysteriously"
+  },
+  {
+    "key": 15,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "neither",
+    "gender": "male",
+    "age": 802,
+    "about": "Culpa non aliqua sunt proident consequat laborum eu proident ullamco et. Magna ut dolore occaecat reprehenderit irure. Proident officia occaecat anim est pariatur culpa duis aliquip nisi cillum ea. Et nulla sint ullamco voluptate sint irure. Culpa occaecat tempor adipisicing fugiat anim laboris enim ad aute elit sit esse.\r\n",
+    "died": "suddenly"
+  },
+  {
+    "key": 16,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "male",
+    "gender": "female",
+    "age": 694,
+    "about": "Minim occaecat velit irure ex commodo. Lorem dolor cupidatat sint cillum fugiat in incididunt incididunt minim id fugiat ex elit excepteur. Sint id culpa sunt duis laboris anim incididunt officia elit eu veniam amet adipisicing. Adipisicing consequat nulla excepteur id non laboris sunt ea ut nulla mollit magna. Dolore do minim dolor fugiat ullamco fugiat in nisi fugiat aute est qui qui. Lorem pariatur minim cupidatat quis velit exercitation ipsum et nostrud ex consectetur occaecat cupidatat.\r\n",
+    "died": "suddenly"
+  },
+  {
+    "key": 17,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "female",
+    "gender": "male",
+    "age": 489,
+    "about": "Lorem adipisicing sunt quis et do incididunt voluptate consequat laborum Lorem sint ea. Id tempor enim labore reprehenderit magna commodo pariatur excepteur laborum. Consequat velit minim est reprehenderit reprehenderit laborum elit qui qui aute sit est. Aliquip ipsum esse tempor laborum reprehenderit proident incididunt aliquip laborum est labore deserunt quis ea. Elit laborum anim cillum aute eiusmod est labore consectetur nisi.\r\n",
+    "died": "mysteriously"
+  },
+  {
+    "key": 18,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "male",
+    "gender": "neither",
+    "age": 700,
+    "about": "Id commodo sint sunt sint irure anim ipsum est aliqua. Veniam aliqua velit id cupidatat deserunt tempor deserunt amet exercitation eu commodo sunt. Aliquip sit exercitation nisi occaecat exercitation mollit fugiat voluptate duis pariatur quis id occaecat. Do aliqua excepteur voluptate occaecat adipisicing ea velit aliqua dolore tempor anim. Cillum labore enim occaecat excepteur incididunt duis. Amet sint cillum eu dolor irure. Enim minim et non nulla incididunt magna non magna magna.\r\n",
+    "died": "horribly"
+  },
+  {
+    "key": 19,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "both",
+    "gender": "male",
+    "age": 518,
+    "about": "Id laborum ex duis voluptate deserunt laboris culpa est duis aliqua do non cupidatat minim. Ullamco nulla ut eu non id exercitation fugiat. Do adipisicing magna ut consectetur ullamco aliquip ad commodo dolor ex mollit cillum deserunt mollit. Veniam officia sit incididunt minim. Nostrud velit qui ipsum aliqua sunt qui. Qui et ullamco nisi veniam ut.\r\n",
+    "died": "horribly"
+  },
+  {
+    "key": 20,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "both",
+    "gender": "neither",
+    "age": 350,
+    "about": "Eiusmod occaecat nulla amet et. Do veniam Lorem qui minim. Irure reprehenderit quis cupidatat ullamco sit ea minim non nisi id esse. Laboris esse sint minim aliquip laborum amet officia Lorem mollit aliqua nisi irure qui. Cillum mollit deserunt excepteur voluptate velit nulla sit. Esse do in amet pariatur minim do velit labore qui proident adipisicing.\r\n",
+    "died": "suddenly"
+  },
+  {
+    "key": 21,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "neither",
+    "gender": "neither",
+    "age": 657,
+    "about": "Cupidatat enim consequat nulla ipsum exercitation ea aliqua enim aute cupidatat ea exercitation duis. In sint adipisicing adipisicing Lorem elit nisi nulla ex veniam do ut dolor fugiat minim. Magna culpa aute laborum nisi sunt amet dolore consequat amet incididunt. Voluptate eu et Lorem ut magna.\r\n",
+    "died": "tragically"
+  },
+  {
+    "key": 22,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "both",
+    "gender": "neither",
+    "age": 144,
+    "about": "Ea deserunt exercitation duis in minim duis dolor laborum dolore. Pariatur reprehenderit id qui ad incididunt in consequat. Ut minim magna fugiat esse reprehenderit laborum minim eiusmod dolore.\r\n",
+    "died": "mysteriously"
+  },
+  {
+    "key": 23,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "both",
+    "gender": "male",
+    "age": 848,
+    "about": "Labore in sint ipsum elit veniam est eu dolore ea mollit ut cupidatat laborum nulla. Ullamco laborum culpa velit veniam est incididunt do eu. Culpa incididunt aute incididunt do elit officia esse occaecat. In amet officia non est amet. Voluptate non aliqua anim dolore id officia laboris. Cillum ullamco sunt id cillum deserunt culpa duis cupidatat id fugiat tempor. Est reprehenderit sit incididunt non sunt ea mollit ullamco occaecat consequat.\r\n",
+    "died": "tragically"
+  },
+  {
+    "key": 24,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "neither",
+    "gender": "neither",
+    "age": 391,
+    "about": "Cupidatat dolore nisi ipsum proident eu. Nisi Lorem aliquip proident Lorem exercitation velit do consequat exercitation quis qui laborum reprehenderit ut. Sit sunt cupidatat consectetur in.\r\n",
+    "died": "suddenly"
+  },
+  {
+    "key": 25,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "female",
+    "gender": "both",
+    "age": 638,
+    "about": "Nulla excepteur mollit in eiusmod minim laborum ut irure ex velit. Est dolor in minim occaecat excepteur dolor minim elit occaecat elit aliquip ullamco. Eiusmod qui eu voluptate in amet sint proident.\r\n",
+    "died": "suddenly"
+  },
+  {
+    "key": 26,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "male",
+    "gender": "both",
+    "age": 858,
+    "about": "Sunt excepteur Lorem fugiat tempor cupidatat quis adipisicing ipsum cupidatat ipsum. Sint nisi cupidatat labore adipisicing exercitation dolore et duis eiusmod. Sint laborum nisi excepteur id minim fugiat ut ex ullamco eu quis duis eiusmod.\r\n",
+    "died": "mysteriously"
+  },
+  {
+    "key": 27,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "female",
+    "gender": "male",
+    "age": 253,
+    "about": "Commodo excepteur tempor mollit ad est commodo Lorem duis qui ea eu. Fugiat officia proident nostrud qui ipsum mollit sint laboris esse mollit enim culpa do minim. Ipsum cillum adipisicing sunt adipisicing duis ullamco cillum anim. Nostrud velit incididunt anim pariatur qui consectetur irure. Quis pariatur adipisicing consequat cupidatat dolor consequat excepteur sunt ex eiusmod exercitation cupidatat eu.\r\n",
+    "died": "suddenly"
+  },
+  {
+    "key": 28,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "neither",
+    "gender": "both",
+    "age": 255,
+    "about": "Aute sunt occaecat aliqua deserunt culpa eiusmod aute excepteur reprehenderit aute in incididunt nisi. Occaecat enim sint ex quis duis laboris aliquip. Velit voluptate dolore fugiat veniam excepteur dolor aliqua. Esse consequat ex Lorem commodo enim cillum dolore duis anim quis. Est officia aute incididunt do ex ipsum dolore nulla qui.\r\n",
+    "died": "suddenly"
+  },
+  {
+    "key": 29,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "female",
+    "gender": "neither",
+    "age": 715,
+    "about": "Sint qui nisi anim ipsum elit sint elit id excepteur reprehenderit nulla est enim. Reprehenderit sint et anim dolor dolor do adipisicing officia velit reprehenderit est. Non dolor adipisicing eu sunt ex do voluptate proident. Nulla aliqua aliquip laborum ullamco duis mollit culpa.\r\n",
+    "died": "mysteriously"
+  },
+  {
+    "key": 30,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "neither",
+    "gender": "male",
+    "age": 173,
+    "about": "Pariatur in cupidatat tempor aliquip labore cupidatat et minim cillum do ad Lorem veniam. Minim aliquip laborum sunt ea labore irure deserunt sunt magna ex ea nostrud in ad. Reprehenderit incididunt do ut occaecat fugiat labore. Nulla ea incididunt ad dolor labore minim ipsum. Incididunt laboris qui qui esse incididunt anim non et ullamco ipsum pariatur duis ullamco cupidatat.\r\n",
+    "died": "horribly"
+  },
+  {
+    "key": 31,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "male",
+    "gender": "male",
+    "age": 268,
+    "about": "Duis veniam nisi duis non reprehenderit. Lorem eu dolore enim Lorem fugiat sit quis magna enim occaecat exercitation quis ut. Nostrud aliqua adipisicing veniam enim eu sit minim elit occaecat veniam.\r\n",
+    "died": "suddenly"
+  },
+  {
+    "key": 32,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "female",
+    "gender": "both",
+    "age": 136,
+    "about": "Lorem pariatur id culpa voluptate veniam dolore excepteur do cupidatat sint nulla. Nisi proident mollit Lorem cupidatat consectetur irure cupidatat. Ea sint aliqua quis esse commodo anim proident ad nostrud reprehenderit incididunt voluptate. Incididunt sit sit non minim aute eiusmod ullamco pariatur consequat sint. Ullamco labore eiusmod reprehenderit veniam elit. Proident ex amet eu veniam et.\r\n",
+    "died": "horribly"
+  },
+  {
+    "key": 33,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "both",
+    "gender": "both",
+    "age": 296,
+    "about": "Veniam ullamco tempor duis dolore mollit esse officia velit. Id quis consectetur do aliqua sit exercitation eu veniam occaecat. Dolor ut ad ea duis.\r\n",
+    "died": "tragically"
+  },
+  {
+    "key": 34,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "female",
+    "gender": "neither",
+    "age": 184,
+    "about": "Est irure non aliquip incididunt aliquip officia esse adipisicing eiusmod. Qui nulla duis dolor velit est culpa nulla ullamco duis cupidatat ullamco nisi eiusmod ipsum. Labore et ipsum incididunt anim reprehenderit duis eiusmod eiusmod minim magna laborum reprehenderit voluptate.\r\n",
+    "died": "suddenly"
+  },
+  {
+    "key": 35,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "both",
+    "gender": "male",
+    "age": 141,
+    "about": "Lorem ullamco id ea elit non aute ullamco duis ea amet sit incididunt dolor sit. Qui minim voluptate deserunt labore magna. Id reprehenderit mollit laborum consequat magna officia. In magna et esse nisi.\r\n",
+    "died": "horribly"
+  },
+  {
+    "key": 36,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "both",
+    "gender": "female",
+    "age": 218,
+    "about": "Tempor officia fugiat pariatur mollit consequat anim cillum Lorem cupidatat. Fugiat irure enim nisi sit Lorem. Elit do do pariatur dolor ut anim elit duis cupidatat esse dolor tempor eiusmod.\r\n",
+    "died": "tragically"
+  },
+  {
+    "key": 37,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "both",
+    "gender": "both",
+    "age": 450,
+    "about": "Veniam enim proident tempor sit. Amet minim exercitation ut aliqua quis eiusmod ut. Dolore pariatur est do aliquip nisi pariatur. Elit veniam reprehenderit id eu ut mollit fugiat commodo. Aliqua adipisicing aute proident minim deserunt nisi quis consectetur officia pariatur in culpa.\r\n",
+    "died": "suddenly"
+  },
+  {
+    "key": 38,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "neither",
+    "gender": "male",
+    "age": 645,
+    "about": "Consectetur deserunt mollit sint veniam et ullamco irure. Voluptate ipsum cillum enim veniam fugiat eiusmod pariatur duis enim. Incididunt dolor voluptate est ullamco sunt est id nostrud esse minim in pariatur ex. Est voluptate et exercitation est occaecat est laborum labore occaecat dolore irure. Voluptate irure minim irure aliqua do consequat dolore ad qui eu excepteur sit reprehenderit adipisicing. Cillum dolor esse nisi dolore aute consequat sit aliqua anim aute pariatur.\r\n",
+    "died": "tragically"
+  },
+  {
+    "key": 39,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "female",
+    "gender": "female",
+    "age": 971,
+    "about": "Aliquip duis qui deserunt consequat dolore nostrud do ipsum Lorem eiusmod laboris. Lorem duis aute incididunt ea enim. Tempor deserunt ad aliqua duis ut excepteur qui laboris sint. Non ea minim ut Lorem dolore in aliquip laborum non ad.\r\n",
+    "died": "mysteriously"
+  },
+  {
+    "key": 40,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "neither",
+    "gender": "both",
+    "age": 126,
+    "about": "Ea incididunt velit proident nostrud. Occaecat tempor enim aliquip nostrud eiusmod eu sit enim veniam sit. Cupidatat fugiat labore ullamco non sint ex amet dolor. Excepteur duis minim deserunt ipsum nulla sit enim nisi velit culpa fugiat consectetur sint culpa. Enim et minim in deserunt culpa occaecat fugiat qui cupidatat nostrud tempor. Deserunt aliquip consequat in amet elit culpa excepteur ipsum.\r\n",
+    "died": "tragically"
+  },
+  {
+    "key": 41,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "female",
+    "gender": "female",
+    "age": 259,
+    "about": "Consequat consectetur aliquip culpa nulla nostrud minim adipisicing qui velit dolore irure amet sint tempor. In aliquip id veniam cillum. Do veniam elit dolor duis labore enim. Officia cillum non reprehenderit ea occaecat eu dolore elit laboris. Ea nostrud in non ad qui esse sit esse pariatur excepteur et ipsum.\r\n",
+    "died": "horribly"
+  },
+  {
+    "key": 42,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "female",
+    "gender": "female",
+    "age": 699,
+    "about": "Tempor qui tempor exercitation enim cupidatat. Eiusmod irure amet exercitation deserunt reprehenderit sunt laborum non amet excepteur qui enim irure Lorem. Elit reprehenderit ad ea incididunt. Commodo nulla aliquip commodo reprehenderit ut consequat sunt. Culpa in anim id commodo cupidatat consequat cillum minim reprehenderit exercitation amet qui. Voluptate et adipisicing commodo do minim officia consectetur.\r\n",
+    "died": "mysteriously"
+  },
+  {
+    "key": 43,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "female",
+    "gender": "neither",
+    "age": 369,
+    "about": "Elit sunt quis et ex labore eiusmod nostrud. Proident nisi eu aute sint. Ut aliqua Lorem dolore ipsum. Reprehenderit aliquip elit pariatur ut reprehenderit consequat.\r\n",
+    "died": "suddenly"
+  },
+  {
+    "key": 44,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "male",
+    "gender": "male",
+    "age": 935,
+    "about": "Eiusmod proident aliqua Lorem velit cupidatat. Culpa nulla voluptate laborum minim quis est ad culpa duis et. Aliquip ipsum do enim mollit pariatur ut labore et consectetur consequat nulla. Non minim duis proident qui amet amet consectetur qui. Lorem ut velit occaecat voluptate in voluptate eu dolore enim. Dolor cupidatat pariatur labore excepteur ipsum incididunt excepteur commodo ad et amet non id. Proident ullamco proident dolore labore pariatur.\r\n",
+    "died": "tragically"
+  },
+  {
+    "key": 45,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "both",
+    "gender": "female",
+    "age": 301,
+    "about": "Do voluptate ipsum dolor reprehenderit amet sunt amet consequat adipisicing. Reprehenderit exercitation ipsum reprehenderit qui id labore veniam aliquip cupidatat ea aliqua irure exercitation. Exercitation aliquip magna qui nulla proident aliqua consequat cillum sunt. Sunt est eu incididunt eiusmod eiusmod eiusmod. Aliqua culpa ad est sunt anim aliqua id. Cillum sunt laboris exercitation reprehenderit. Incididunt sint nisi est consequat eu aliquip.\r\n",
+    "died": "tragically"
+  },
+  {
+    "key": 46,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "female",
+    "gender": "female",
+    "age": 241,
+    "about": "Incididunt sit id laborum Lorem qui laboris. Deserunt dolore commodo voluptate aute Lorem cillum amet pariatur eiusmod officia adipisicing. Qui sint ea eu do. Velit ullamco occaecat velit sunt ad magna incididunt magna. Pariatur elit in eiusmod et aute Lorem ullamco laboris amet ea aliqua consectetur incididunt nostrud. Eu pariatur tempor aliqua Lorem ipsum est cupidatat Lorem elit sint. Culpa cillum Lorem commodo nisi nulla sint non laborum ex sit consequat voluptate ut.\r\n",
+    "died": "mysteriously"
+  },
+  {
+    "key": 47,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "neither",
+    "gender": "female",
+    "age": 218,
+    "about": "Anim in esse sit in enim cillum velit magna quis minim duis nostrud. Elit laborum officia velit eu sit quis irure fugiat fugiat. Non ipsum cupidatat sunt occaecat enim occaecat cillum veniam ex. Aliquip aliquip proident ut occaecat et nostrud ex ipsum culpa officia dolor. Proident ipsum ullamco duis incididunt aliqua aute qui mollit voluptate dolore consectetur adipisicing fugiat. Laboris non sit in ullamco deserunt nisi eiusmod aliqua. Ad eu et quis aute aliqua irure.\r\n",
+    "died": "tragically"
+  },
+  {
+    "key": 48,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "both",
+    "gender": "both",
+    "age": 601,
+    "about": "Consectetur irure magna reprehenderit sit est ad sunt consectetur sit pariatur. Ea proident elit amet nostrud esse ullamco pariatur Lorem anim ad non dolore et sunt. Adipisicing veniam do enim enim ex dolor cupidatat nostrud sint esse dolor.\r\n",
+    "died": "horribly"
+  },
+  {
+    "key": 49,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "male",
+    "gender": "male",
+    "age": 561,
+    "about": "Est veniam ullamco aute sit aliquip commodo nostrud ipsum exercitation exercitation aute aute. Laboris eu enim adipisicing occaecat veniam voluptate ea minim officia ipsum. Ex amet ipsum ullamco pariatur consequat tempor in qui ut dolor sit aliquip. Aliqua qui nulla ullamco officia anim eiusmod sit irure ut ipsum aute aute sint laborum. Reprehenderit anim anim duis consequat ad sint.\r\n",
+    "died": "mysteriously"
+  },
+  {
+    "key": 50,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "male",
+    "gender": "female",
+    "age": 740,
+    "about": "Ipsum eu nisi officia exercitation cillum tempor pariatur. Aliquip velit excepteur ex consequat cupidatat eiusmod. Veniam ea culpa ipsum anim tempor enim consequat aliqua non ullamco esse cupidatat tempor non. Eu ex non aliquip cupidatat sint quis laborum veniam cillum. Labore aliquip aliquip pariatur laborum ullamco anim sit aliqua Lorem qui. Laboris cupidatat nulla ex irure aliqua eu proident officia veniam. Fugiat duis laboris ex reprehenderit mollit do quis ut aliqua ut aliquip nostrud.\r\n",
+    "died": "mysteriously"
+  },
+  {
+    "key": 51,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "male",
+    "gender": "female",
+    "age": 896,
+    "about": "Do voluptate dolore eiusmod officia excepteur non eu in tempor ut nulla. Aute occaecat voluptate commodo non cillum laboris laborum mollit ea. Culpa non qui aliqua incididunt ut excepteur in fugiat. Irure aute reprehenderit consequat aliquip adipisicing ipsum cillum.\r\n",
+    "died": "mysteriously"
+  },
+  {
+    "key": 52,
+    "picture": "../assets/ghostwoman1.jpg",
+    "name": "female",
+    "gender": "female",
+    "age": 987,
+    "about": "Adipisicing id eu eiusmod incididunt elit nulla excepteur sunt officia. Elit elit nostrud voluptate et et nostrud tempor exercitation laboris. Commodo aliquip qui id aliquip laborum incididunt commodo enim cillum.\r\n",
+    "died": "horribly"
+  }
+]

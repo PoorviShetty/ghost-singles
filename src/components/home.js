@@ -1,6 +1,7 @@
 
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
+import Search from "./search";
 
 export default function Home() {
 
@@ -8,19 +9,21 @@ export default function Home() {
     <div className='main'>
         <Grid container className='mainPageGrid'>
             <Grid item xs={12} sm={4} md={4} >
-              <div class="searchCol">
-                <div class="ladyImage"> 
-                    <img src="./assets/success.jpg" />            
+              <div className="searchCol">
+                <Search />
+                <div className="ladyImage"> 
+                    <img src="./assets/success.jpg" alt="testimonial"/>            
                 </div>
               </div>
             </Grid>  
             <Grid item xs={12} sm={8} md={8}>
-                <div class="ladyImage"> 
-                    <img src="./assets/ghost-lady.JPG" />            
+                
+                <div className="ladyImage"> 
+                    <img src="./assets/ghost-lady.JPG" alt="ghost lady in chair"/>            
                 </div>
             </Grid>
             <Grid item xs={12} sm={12} md={12}>
-                <div class="homeText"> 
+                <div className="homeText"> 
                   <h1>Free Singles, Free Chat, Free Souls</h1>
 
                   Finally, a dating site for singles who know how to get a life! Well, an afterlife. Okay, maybe some sort of in-between, nether-world, ethereal existence. But if you're looking for love, and you're dead, Ghost Singles is the site for you. Dozens* of singles have already joined, and the singles' chat is available 24/7 for your enjoyment. This is a free dating site, if you qualify, so don't hesitate! Join today!<br/><br/>

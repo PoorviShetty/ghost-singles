@@ -7,11 +7,9 @@ header {
 }
 
 .headerContent {
-  /* padding-left: 1rem;
+  padding-left: 1rem;
   padding-right: 1rem;
-  min-height: 1.5rem; */
-  display: flex;
-  flex: 1;
+  min-height: 1.5rem;
 }
 
 .headerContent img {
@@ -19,13 +17,54 @@ header {
   margin-top: auto;
 }
 
-.main {
-  padding: 2rem;
-}
-
 .right {
   float: right;
-  margin-top: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .headerContent img {
+    height: 2rem;
+    margin-top: auto;
+  }
+
+  .lineHack {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .headerContent img {
+    height: 1.5rem;
+    margin-top: auto;
+  }
+
+  .lineHack {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .headerContent {
+    display: flex;
+    justify-content: center;
+  }
+
+  .headerContent img {
+    display: block;
+  }
+
+  .right {
+    float: none;
+    display: block;
+  }
+
+  .lineHack {
+    display: none;
+  }
+}
+
+.main {
+  padding: 2rem;
 }
 
 .mainGrid {
@@ -58,6 +97,7 @@ header {
 
 .searchCol {
   padding: 0.5rem;
+  padding-top: 0;
   padding-right: 1rem;
 }
 
@@ -76,4 +116,46 @@ footer {
   justify-content: center;
   text-align: center;
   padding: 1rem;
+}
+
+/*Search*/
+.searchOuter {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: #feaf37 !important;
+}
+
+.searchInner {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.searchInner form {
+  text-align: center;
+  line-height: 1.15rem;
+}
+
+.searchTitle {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.5rem;
+}
+
+.personCardItem {
+  padding: 1rem;
+  width: 100%;
+}
+
+.personCard {
+  background-color: #f1f0fd !important;
+  padding: 1rem;
+}
+
+.personCard img {
+  width: 100%;
+  border: 1px solid black;
 }

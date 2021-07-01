@@ -11,6 +11,7 @@ import Tips from "./tips";
 import Terms from "./terms";
 import Privacy from "./privacy";
 import Join from "./join";
+import Result from "./results";
 
 export default function Page() {
 
@@ -38,13 +39,16 @@ export default function Page() {
                         <Route path="/join">
                             <Join />
                         </Route>
+                        <Route path="/result">
+                            <Result />
+                        </Route>
                     </Switch>
                 </div>
             </Grid>
             <Hidden only='xs'>
-                <Grid item xs={0} sm={3} md={4}>
-                    <div class="tipsImage"> 
-                        <img src="./assets/dating_tips.jpg" />            
+                <Grid item sm={3} md={4}>
+                    <div className="tipsImage"> 
+                        <img src="./assets/dating_tips.jpg" alt="dating tips"/>            
                     </div>
                 </Grid>
             </Hidden>

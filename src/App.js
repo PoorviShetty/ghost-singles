@@ -14,7 +14,6 @@ import Home from "./components/home";
 import Page from "./components/temp";
 
 
-
 export default function App() {
 
   return (
@@ -24,9 +23,9 @@ export default function App() {
           <Grid item xs={11} sm={11} md={7} >
             <Paper elevation={10} className='mainPaper'>
               <header>
-                <div class="headerContent">
-                  <img src="./assets/logo.JPG" />       
-                  <nav class="right">
+                <div className="headerContent">
+                  <img src="./assets/logo.JPG" alt="logo"/>       
+                  <nav className="right"><br className="lineHack"/>
                       Don't Haunt Alone!<br/>
                       <Link to="/">HOME</Link>&nbsp;&nbsp;
                       <Link to="/contact">CONTACT</Link>&nbsp;&nbsp;
@@ -37,9 +36,9 @@ export default function App() {
               </header>
 
               
-                <div class="mainContent">              
+                <div className="mainContent">              
                   <Switch>
-                    <Route path={["/privacy", "/terms", "/contact", "/prices", "/tips", "/join"]}>
+                    <Route path={["/privacy", "/terms", "/contact", "/prices", "/tips", "/join", '/result']}>
                       <Page />
                     </Route>
                     <Route path="/">
@@ -54,7 +53,7 @@ export default function App() {
                     <Link to="/contact">Contact</Link>&nbsp;&nbsp;
                     <Link to="/prices">Prices</Link>&nbsp;&nbsp;
                     <Link to="/tips">Tips</Link>&nbsp;&nbsp;
-                    <strong><a href="http://ghostsingles.com/" target="_blank">Original</a></strong>
+                    <strong><a href="http://ghostsingles.com/" target="_blank" rel="noreferrer">Original</a></strong>
                   </nav>
                 </footer>
 
