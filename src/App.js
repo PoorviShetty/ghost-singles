@@ -24,7 +24,7 @@ export default function App() {
             <Paper elevation={10} className='mainPaper'>
               <header>
                 <div className="headerContent">
-                  <img src="./assets/logo.JPG" alt="logo"/>       
+                  <Link to="/"><img src="./assets/logo.JPG" alt="logo"/></Link>       
                   <nav className="right"><br className="lineHack"/>
                       Don't Haunt Alone!<br/>
                       <Link to="/">HOME</Link>&nbsp;&nbsp;
@@ -38,7 +38,7 @@ export default function App() {
               
                 <div className="mainContent">              
                   <Switch>
-                    <Route path={["/privacy", "/terms", "/contact", "/prices", "/tips", "/join", '/result']}>
+                    <Route path={["/privacy", "/terms", "/contact", "/prices", "/tips", "/join", '/result', '/profile/:key']}>
                       <Page />
                     </Route>
                     <Route path="/">

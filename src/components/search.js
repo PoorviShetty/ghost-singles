@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import Paper from '@material-ui/core/Paper';
-
+import { Redirect , useHistory } from "react-router-dom";
+import querystring from 'querystring';
 
 export default function Search() {
+
+  const history = useHistory();
 
   let [search, setSearch] = useState({
     seeker: 'male',
@@ -21,7 +24,12 @@ export default function Search() {
 
   let onSubmit = (e) => {
     e.preventDefault();
-    console.log(search);
+
+    history.push({
+        pathname: '/result',
+        search: querystring.stringify(search)
+      }
+    );
   }
 
   return (
@@ -71,7 +79,13 @@ export default function Search() {
           </select><br/><br/>
           <button type="submit">SEARCH!</button>
         </form>
-
+        {search.length > 0 &&
+          <Redirect to={{
+            pathname: '/results',
+            state: { data: search }
+          }}/>
+          
+        }
 
         </Paper>
     </Paper>

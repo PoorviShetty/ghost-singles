@@ -5,6 +5,7 @@ import {
   Route,
 } from "react-router-dom";
 import Hidden from '@material-ui/core/Hidden';
+
 import Contact from "./contact";
 import Prices from "./prices";
 import Tips from "./tips";
@@ -12,6 +13,8 @@ import Terms from "./terms";
 import Privacy from "./privacy";
 import Join from "./join";
 import Result from "./results";
+import Profile from "./profile";
+
 
 export default function Page() {
 
@@ -42,6 +45,7 @@ export default function Page() {
                         <Route path="/result">
                             <Result />
                         </Route>
+                        <Route path="/profile/:key" children={<Profile />} />                        
                     </Switch>
                 </div>
             </Grid>
