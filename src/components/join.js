@@ -3,7 +3,11 @@ import {
   Link
 } from "react-router-dom";
 
+
+
 export default function Join() {
+
+
 
   let [account, setAccount] = useState({
     firstname: '',
@@ -11,7 +15,7 @@ export default function Join() {
     username: '',
     gender: 'Female',
     seeking: ['Female'],
-    maritalstaus: '1',
+    maritalstatus: '1',
     heightfeet: '',
     heightinches: '',
     widthfeet: '',
@@ -25,8 +29,7 @@ export default function Join() {
     email: '',
     password: '',
     password2: '',
-    tu: 'on',
-    rs: 'on'
+    tu: 'on'
   });
 
   let handleChange = (e) => {
@@ -51,6 +54,7 @@ export default function Join() {
 
   return (
     <div className='main'>
+
         <form name="join" method="post" onSubmit={onSubmit}>
           <h1>Join Today!</h1> 
           There's no time like the present to start looking for your soulmate!* 
@@ -168,15 +172,10 @@ export default function Join() {
           <br/><br/>
           
           <strong>I have read and agree to abide by the <Link to="/terms">Terms of Use</Link></strong>
-          <input name="tu" type="checkbox" onChange={handleChange}/> 
-          <br/><br/>
+          <input name="tu" type="checkbox" defaultChecked={'on'} onChange={handleChange}/> 
 
-          <strong>
-          And sign me up for <span id="realsite"><em>no-girlfriend.com</em></span> when it launches. Why not?
-          </strong>
-          <input name="rs" type="checkbox" checked="checked" onChange={handleChange}/>
           <br/><br/>
-          <button type="submit">SUBMIT!</button>
+          <button type="submit">JOIN NOW!</button>
           <br />
           <br /> *Actually, the past would probably have been a better time to find your soulmate. 
         </form>

@@ -20,8 +20,7 @@ import Profile from "./profile";
 
 export default function Page() {
 
-    let location = useLocation();
-  console.log(location.pathname);
+   let location = useLocation();
 
     return (
       <div className='mainPage'>
