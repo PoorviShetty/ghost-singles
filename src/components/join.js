@@ -3,11 +3,11 @@ import {
   Link
 } from "react-router-dom";
 
-
+//Does basically nothing :D
 
 export default function Join() {
 
-
+  var error = false;
 
   let [account, setAccount] = useState({
     firstname: '',
@@ -25,7 +25,7 @@ export default function Join() {
     birthday: '',
     deathday: '',
     death:'horribly',
-    about: '',
+    about: 'Write something!',
     email: '',
     password: '',
     password2: '',
@@ -49,8 +49,59 @@ export default function Join() {
   let onSubmit = (e) => {
     e.preventDefault();
     console.log(account);
+    error = false;
+    checkEmpty();
+    checkDate();
+    checkPass();
+    if (!error){
+      console.log(account);
+      window.location.href = 'https://youtu.be/9Deg7VrpHbM';
+    }    
   }
 
+  //Dumb Name
+  let dumbName = () =>{
+    var firstname = document.getElementById('firstname').value.replace(/[^a-zA-Z0-9]+/,'');
+    var lastname = document.getElementById('lastname').value.replace(/[^a-zA-Z0-9]+/,'');
+    if ((firstname != '') && (lastname != '')){
+      var link = 'http://'+firstname+'.'+lastname+'.isadumb.name';
+      document.getElementById('dumbnamelink').innerHTML = "Huh. There's a website that says <b>"+firstname+" "+lastname+"</b> is a dumb name: <a href='"+link+"' target=_blank>"+link+"</a>";
+    }	
+  }
+
+  //Check Build
+  let checkBuild = () =>{
+    if (document.getElementById('build').value=='fleshy') alert("Ghosts only please! No living, or tangible undead such as vampires or zombies.");
+  }
+  
+  //Check if birthday less than death day
+  let checkDate = () =>{
+    const date1 = new Date(account.birthday);
+    const date2 = new Date(account.deathday);
+    const diffTime = date2 - date1;
+    if (diffTime < 0){
+      alert("Very interesting")
+      error = true;
+    }
+  }
+
+  //Check if passwords are equal
+  let checkPass = () =>{
+    var password = document.getElementById('password').value
+    var password2 = document.getElementById('password2').value
+    if(password != password2){
+      alert("Passwords don't match")
+      error = true;
+    }
+  }
+
+  //Check if fields are empty
+  let checkEmpty = () =>{
+    if(Object.values(account).includes("")){
+      alert("Don't be shy, fill all the fields!")
+      error = true;
+    }
+  }
 
   return (
     <div className='main'>
@@ -60,12 +111,12 @@ export default function Join() {
           There's no time like the present to start looking for your soulmate!* 
           <br/><br/>
           <strong>First name: &nbsp;&nbsp;&nbsp;</strong>
-          <input name="firstname" id="firstname" type="text" onChange={handleChange} defaultValue={account.firstname}/> 
+          <input name="firstname" id="firstname" type="text" onChange={handleChange} defaultValue={account.firstname} onBlur={dumbName}/> 
           <br/><br/>
 
           <strong>Last name: &nbsp;&nbsp;&nbsp;</strong>
-          <input name="lastname" id="lastname" type="text" onChange={handleChange} />
-          <div id="dumbnamelink" ></div>
+          <input name="lastname" id="lastname" type="text" onChange={handleChange} onBlur={dumbName} />
+          <div id="dumbnamelink"></div>
           <br/>
           
           <strong>Desired Username: &nbsp;&nbsp;&nbsp;</strong>
@@ -115,7 +166,7 @@ export default function Join() {
            
           
           <strong>Build: &nbsp;&nbsp;&nbsp;</strong>
-          <select name="build" id="build" defaultValue={"wispy"} onChange={handleChange}>
+          <select name="build" id="build" defaultValue={"wispy"} onChange={handleChange} onBlur={checkBuild}>
             <option value="wispy">Wispy</option>
             <option value="airy">Airy</option>
             <option value="ethereal">Ethereal</option>
@@ -155,24 +206,24 @@ export default function Join() {
           <br/><br/>
 
           <strong>About: &nbsp;&nbsp;&nbsp;</strong><br/>
-          <textarea name="about" rows="4" cols="50">
+          <textarea name="about" rows="4" cols="25" defaultValue="Write something!">            
           </textarea> 
           <br/><br/>
 
           <strong>Email: &nbsp;&nbsp;&nbsp;</strong>
-          <input name="email" value="" type="email" onChange={handleChange}/>
+          <input name="email" type="email" onChange={handleChange}/>
           <br/><br/>
 
           <strong>Password: &nbsp;&nbsp;&nbsp;</strong>
-          <input name="password" value="" type="password" onChange={handleChange}/> 
+          <input name="password" id="password" type="password" onChange={handleChange}/> 
           <br/><br/>
 
           <strong>Password (confirm): &nbsp;&nbsp;&nbsp;</strong>
-          <input name="password2" value="" type="password" onChange={handleChange}/> 
+          <input name="password2" id="password2" type="password" onChange={handleChange}/> 
           <br/><br/>
           
-          <strong>I have read and agree to abide by the <Link to="/terms">Terms of Use</Link></strong>
-          <input name="tu" type="checkbox" defaultChecked={'on'} onChange={handleChange}/> 
+          <strong>I have read and agree to abide by the <Link to="/terms">Terms of Use</Link></strong> (You don't really have a choice)
+          <input name="tu" type="checkbox" checked="checked" onChange={handleChange}/> 
 
           <br/><br/>
           <button type="submit">JOIN NOW!</button>

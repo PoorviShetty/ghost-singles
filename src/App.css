@@ -159,3 +159,7 @@ footer {
   width: 100%;
   border: 1px solid black;
 }
+
+select {
+  width: 150px;
+}
