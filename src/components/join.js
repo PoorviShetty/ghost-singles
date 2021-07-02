@@ -1,262 +1,182 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   Link
 } from "react-router-dom";
 
 export default function Join() {
 
+  let [account, setAccount] = useState({
+    firstname: '',
+    lastname: '',
+    username: '',
+    gender: 'Female',
+    seeking: ['Female'],
+    maritalstaus: '1',
+    heightfeet: '',
+    heightinches: '',
+    widthfeet: '',
+    widthinches: '',
+    build: 'wispy',
+    referrer: 'friend',
+    birthday: '',
+    deathday: '',
+    death:'horribly',
+    about: '',
+    email: '',
+    password: '',
+    password2: '',
+    tu: 'on',
+    rs: 'on'
+  });
+
+  let handleChange = (e) => {
+    let name = e.target.name;
+    let value = e.target.value;
+    account[name] = value;
+    setAccount(account);
+  }
+
+  let handleArrChange = (e) => {
+    let name = e.target.name;
+    let value = Array.from(e.target.selectedOptions, option => option.value);
+    account[name] = value;
+    setAccount(account);
+  }
+
+  let onSubmit = (e) => {
+    e.preventDefault();
+    console.log(account);
+  }
+
+
   return (
     <div className='main'>
-        <form name="join">
-        <h1>Join Today!</h1> 
-        There's no time like the present to start looking for your soulmate!* 
-        <br/><br/>
-        <strong>First name: &nbsp;&nbsp;&nbsp;</strong>
-        <input name="firstname" id="firstname" type="text" /> 
-        <br/><br/>
+        <form name="join" method="post" onSubmit={onSubmit}>
+          <h1>Join Today!</h1> 
+          There's no time like the present to start looking for your soulmate!* 
+          <br/><br/>
+          <strong>First name: &nbsp;&nbsp;&nbsp;</strong>
+          <input name="firstname" id="firstname" type="text" onChange={handleChange} defaultValue={account.firstname}/> 
+          <br/><br/>
 
-        <strong>Last name: &nbsp;&nbsp;&nbsp;</strong>
-        <input name="lastname" id="lastname" type="text" />
-        {/* <div id="dumbnamelink" ></div>  */}
-        <br/><br/>
-        
-        <strong>Desired Username: &nbsp;&nbsp;&nbsp;</strong>
-        <input name="username" type="text" />
-        <br/><br/>
-        
-        <strong>Gender: &nbsp;&nbsp;&nbsp;</strong>
-        <input name="gender" value="1" id="gendermen" type="radio" /> Male
-        <input name="gender" value="2" id="genderwomen" type="radio"/> Female 
-        <br/><br/>
-        
-        <strong>Marital Status: &nbsp;&nbsp;&nbsp;</strong>
-        <select name="marital_status">
-          <option value="1" selected="">Never married</option>
-          <option value="2">Married til death did us part</option>
-          <option value="1">Married, then divorced, then died</option>
-          <option value="1">Married, then widowed, then died</option>
-          <option value="1">Been so long I can't remember</option>
-          <option value="1">BOOOOoooooOOOOOOOOOooo</option>
-        </select>
-        <br /> <br/>
-        <strong>Height (standing): &nbsp;&nbsp;&nbsp;</strong>
-        <select name="heightfeet" defaultValue={'5'}>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-          <option>6</option>
-          <option>7</option>
-        </select>
-        <select name="heightinches" defaultValue={'5'}>
-          <option>0</option>
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-          <option>6</option>
-          <option>7</option>
-          <option>8</option>
-          <option>9</option>
-          <option>10</option>
-          <option>11</option>
-        </select>
-        <br /> <br/>
-        <strong>Height (floating): &nbsp;&nbsp;&nbsp;</strong>
-        <select name="heightfeet">
-          <option>3</option>
-          <option>4</option>
-          <option selected="selected">5</option>
-          <option>6</option>
-          <option>7</option>
-          <option>8</option>
-          <option>9</option>
-          <option>10</option>
-          <option>11</option>
-        </select>
-        <select name="heightinches">
-          <option>0</option>
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-          <option selected="selected">6</option>
-          <option>7</option>
-          <option>8</option>
-          <option>9</option>
-          <option>10</option>
-          <option>11</option>
-        </select>
-        <br /> <br/>
-        
-        
-        
-        <strong>Build: &nbsp;&nbsp;&nbsp;</strong>
-        <select name="build" id="build">
-          <option selected="">Wispy</option>
-          <option>Airy</option>
-          <option>Ethereal</option>
-          <option>Smoky</option>
-          <option>Cloudy</option>
-          <option value="f">Fleshy, actually</option>
-        </select> 
-        <br/><br/>
-
-        <strong>Referred by: &nbsp;&nbsp;&nbsp;</strong>
-        <select name="referrer">
-          <option selected="selected">-Please choose one-</option>
-          <option>Friend</option>
-          <option>Seance</option>
-          <option>Medium</option>
-          <option>My restless spirit wandered here by chance, or perhaps fate</option> 
-        </select>
-        <br/><br/>
-      
-          <strong>Birthdate: &nbsp;&nbsp;&nbsp;</strong>
-          <select name="birthmonth">
-            <option selected="selected" value="01">January</option>
-            <option value="02">February</option>
-            <option value="03">March</option>
-            <option value="04">April</option>
-            <option value="05">May</option>
-            <option value="06">June</option>
-            <option value="07">July</option>
-            <option value="08">August</option>
-            <option value="09">September</option>
-            <option value="10">October</option>
-            <option value="11">November</option>
-            <option value="12">December</option>
-          </select>
-          <select name="birthday">
-            <option selected="selected">1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-            <option>6</option>
-            <option>7</option>
-            <option>8</option>
-            <option>9</option>
-            <option>10</option>
-            <option>11</option>
-            <option>12</option>
-            <option>13</option>
-            <option>14</option>
-            <option>15</option>
-            <option>16</option>
-            <option>17</option>
-            <option>18</option>
-            <option>19</option>
-            <option>20</option>
-            <option>21</option>
-            <option>22</option>
-            <option>23</option>
-            <option>24</option>
-            <option>25</option>
-            <option>26</option>
-            <option>27</option>
-            <option>28</option>
-            <option>29</option>
-            <option>30</option>
-            <option>31</option>
-          </select>
-          <select name="birthyear">
-            <option>2021</option>
-            <option>2020</option>
-            <option>2019</option>
-            <option>1963</option>
-            <option>1962</option>
-            <option>1961</option>
-            <option>1951</option>
-            <option>1950</option>
-            <option>1897</option>
-            <option>1896</option>
-            <option>1895</option>
-            <option>1894</option>
-            <option>1893</option>
-            <option>1789</option>
-            <option>1788</option>
-            <option>1000</option>
-          </select> 
+          <strong>Last name: &nbsp;&nbsp;&nbsp;</strong>
+          <input name="lastname" id="lastname" type="text" onChange={handleChange} />
+          <div id="dumbnamelink" ></div>
+          <br/>
+          
+          <strong>Desired Username: &nbsp;&nbsp;&nbsp;</strong>
+          <input name="username" type="text" onChange={handleChange} />
           <br/><br/>
           
-          <strong>Deathdate: &nbsp;&nbsp;&nbsp;</strong>
-          <select name="deathmonth">
-            <option selected="selected" value="01">January</option>
-            <option value="02">February</option>
-            <option value="03">March</option>
-            <option value="04">April</option>
-            <option value="05">May</option>
-            <option value="06">June</option>
-            <option value="07">July</option>
-            <option value="08">August</option>
-            <option value="09">September</option>
-            <option value="10">October</option>
-            <option value="11">November</option>
-            <option value="12">December</option>
+          <strong>Gender: &nbsp;&nbsp;&nbsp;</strong>
+          <select name="gender" defaultValue={'Female'} onChange={handleChange}>
+              <option value="Female">Female</option>
+              <option value="Male">Male</option>
+              <option value="Transgender">Transgender</option>
+              <option value="Non-binary">Non-binary</option>
+              <option value="Intersex">Intersex</option>
+              <option value="Not specified">Prefer not to say</option>
           </select>
-          <select name="deathday">
-            <option selected="selected">1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-            <option>6</option>
-            <option>7</option>
-            <option>8</option>
-            <option>9</option>
-            <option>10</option>
-            <option>11</option>
-            <option>12</option>
-            <option>13</option>
-            <option>14</option>
-            <option>15</option>
-            <option>16</option>
-            <option>17</option>
-            <option>18</option>
-            <option>19</option>
-            <option>20</option>
-            <option>21</option>
-            <option>22</option>
-            <option>23</option>
-            <option>24</option>
-            <option>25</option>
-            <option>26</option>
-            <option>27</option>
-            <option>28</option>
-            <option>29</option>
-            <option>30</option>
-            <option>31</option>
+          <br/><br/>
+
+          <strong>Seeking:<br/> &nbsp;&nbsp;&nbsp;</strong>
+          <select name="seeking" defaultValue={['Female']} onChange={handleArrChange} multiple>
+              <option value="Female">Female</option>
+              <option value="Male">Male</option>
+              <option value="Transgender">Transgender</option>
+              <option value="Non-binary">Non-binary</option>
+              <option value="Intersex">Intersex</option>
+              <option value="Not specified">Prefer not to say</option>
           </select>
-          <select name="deathyear">
-            <option>2021</option>
-            <option>1001</option>
-            <option>1000</option>
+          <br/><br/>
+          
+          <strong>Marital Status: &nbsp;&nbsp;&nbsp;</strong>
+          <select name="maritalstatus" defaultValue={'1'} onChange={handleChange}>
+            <option value="1">Never married</option>
+            <option value="2">Married til death did us part</option>
+            <option value="3">Married, then divorced, then died</option>
+            <option value="4">Married, then widowed, then died</option>
+            <option value="5">Been so long I can't remember</option>
+            <option value="6">BOOOOoooooOOOOOOOOOooo</option>
+          </select>
+          <br /> <br/>
+          <strong>Height (standing): &nbsp;&nbsp;&nbsp;</strong>
+          <input name="heightfeet" type="number" onChange={handleChange} />&nbsp;&nbsp; feet&nbsp;&nbsp;
+          <input name="heightinches" type="number" onChange={handleChange}/> &nbsp;&nbsp;inches
+          <br /> <br/>
+          <strong>Height (floating): &nbsp;&nbsp;&nbsp;</strong>
+          <input name="widthfeet" type="number" onChange={handleChange}/>&nbsp;&nbsp; feet&nbsp;&nbsp;
+          <input name="widthinches" type="number" onChange={handleChange}/> &nbsp;&nbsp;inches
+          <br /> <br/>
+           
+          
+          <strong>Build: &nbsp;&nbsp;&nbsp;</strong>
+          <select name="build" id="build" defaultValue={"wispy"} onChange={handleChange}>
+            <option value="wispy">Wispy</option>
+            <option value="airy">Airy</option>
+            <option value="ethereal">Ethereal</option>
+            <option value="smoky">Smoky</option>
+            <option value="cloudy">Cloudy</option>
+            <option value="fleshy">Fleshy, actually</option>
           </select> 
+          <br/><br/>
+
+          <strong>Referred by: &nbsp;&nbsp;&nbsp;</strong>
+          <select name="referrer" defaultValue={"friend"} onChange={handleChange}>
+            <option value="friend">Friend</option>
+            <option value="seance">Seance</option>
+            <option value="medium">Medium</option>
+            <option value="fate">My restless spirit wandered here by chance, or perhaps fate</option> 
+          </select>
+          <br/><br/>
+        
+          <strong>Birthdate: &nbsp;&nbsp;&nbsp;</strong>
+          <input type="date" name="birthday" onChange={handleChange}/>
+          <br/><br/>
+            
+          <strong>Deathdate: &nbsp;&nbsp;&nbsp;</strong>
+          <input type="date" name="deathday" onChange={handleChange}/>      
+          <br/><br/>
+
+          <strong>Nature of death: &nbsp;&nbsp;&nbsp;</strong>
+          <select name="death" defaultValue={'horribly'} onChange={handleChange}>
+              <option value="horribly">Horribly
+              </option>
+              <option value="mysteriously">Mysteriously
+              </option>
+              <option value="tragically">Tragically
+              </option>
+              <option value="suddenly">Suddenly</option>
+          </select>
+          <br/><br/>
+
+          <strong>About: &nbsp;&nbsp;&nbsp;</strong><br/>
+          <textarea name="about" rows="4" cols="50">
+          </textarea> 
           <br/><br/>
 
           <strong>Email: &nbsp;&nbsp;&nbsp;</strong>
-          <input name="email" value="" type="text" />
+          <input name="email" value="" type="email" onChange={handleChange}/>
           <br/><br/>
 
           <strong>Password: &nbsp;&nbsp;&nbsp;</strong>
-          <input name="password" value="" type="password" /> 
+          <input name="password" value="" type="password" onChange={handleChange}/> 
           <br/><br/>
 
           <strong>Password (confirm): &nbsp;&nbsp;&nbsp;</strong>
-          <input name="password2" value="" type="password" /> 
+          <input name="password2" value="" type="password" onChange={handleChange}/> 
           <br/><br/>
           
           <strong>I have read and agree to abide by the <Link to="/terms">Terms of Use</Link></strong>
+          <input name="tu" type="checkbox" onChange={handleChange}/> 
           <br/><br/>
 
-          <input name="tu" type="checkbox" /> <strong>
-              And sign me up for <span id="realsite"><em>no-girlfriend.com</em></span> when it launches. Why not?
+          <strong>
+          And sign me up for <span id="realsite"><em>no-girlfriend.com</em></span> when it launches. Why not?
           </strong>
-          <input name="rs" type="checkbox" value="true" checked="checked" />
+          <input name="rs" type="checkbox" checked="checked" onChange={handleChange}/>
           <br/><br/>
-          <input type="button" value="Submit"/>
+          <button type="submit">SUBMIT!</button>
           <br />
           <br /> *Actually, the past would probably have been a better time to find your soulmate. 
         </form>

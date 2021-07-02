@@ -8,16 +8,17 @@ export default function Search() {
   const history = useHistory();
 
   let [search, setSearch] = useState({
-    seeker: 'male',
-    seeking: 'female',
+    seeker: 'Female',
+    seeking: ['Female'],
     minage: '100',
     maxage:'1000',
     death:'horribly'
   });
-
+  
   let handleChange = (e) => {
     let name = e.target.name;
-    let value = e.target.value;
+    //let value = e.target.value;
+    let value = Array.from(e.target.selectedOptions, option => option.value);
     search[name] = value;
     setSearch(search);
   }
@@ -43,20 +44,24 @@ export default function Search() {
 
         <form method="post" onSubmit={onSubmit}>
           I am a &nbsp;&nbsp;
-          <select name="seeker" defaultValue={'male'} onChange={handleChange}>
-              <option value="male">male ghost</option>
-              <option value="female">female ghost</option>
-              <option value="neither">neither</option>
-              <option value="both">both</option>
+          <select name="seeker" defaultValue={'Female'} onChange={handleChange}>
+              <option value="Female">Female</option>
+              <option value="Male">Male</option>
+              <option value="Transgender">Transgender</option>
+              <option value="Non-binary">Non-binary</option>
+              <option value="Intersex">Intersex</option>
+              <option value="Not specified">Prefer not to say</option>
           </select> <br/>
-          seeking a &nbsp;&nbsp;
-          <select name="seeking" defaultValue={'female'} onChange={handleChange}>
-              <option value="male">male ghost</option>
-              <option value="female">female ghost</option>
-              <option value="neither">neither</option>
-              <option value="both">both</option>
-          </select> <br/>
-          between the ages of <br/>
+          ghost seeking a &nbsp;&nbsp;
+          <select name="seeking" defaultValue={['Female']} onChange={handleChange} multiple>
+              <option value="Female">Female</option>
+              <option value="Male">Male</option>
+              <option value="Transgender">Transgender</option>
+              <option value="Non-binary">Non-binary</option>
+              <option value="Intersex">Intersex</option>
+              <option value="Not specified">Prefer not to say</option>
+          </select><br/>
+          ghost between the ages of <br/>
           <select name="minage" defaultValue={'100'} onChange={handleChange}>
             <option value="100">100</option>
             <option value="500">500</option>

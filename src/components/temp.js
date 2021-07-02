@@ -3,7 +3,8 @@ import Grid from '@material-ui/core/Grid';
 import {
   Switch,
   Route,
-  Link
+  Link,
+  useLocation
 } from "react-router-dom";
 import Hidden from '@material-ui/core/Hidden';
 
@@ -18,6 +19,9 @@ import Profile from "./profile";
 
 
 export default function Page() {
+
+    let location = useLocation();
+  console.log(location.pathname);
 
     return (
       <div className='mainPage'>
@@ -52,11 +56,20 @@ export default function Page() {
             </Grid>
             <Hidden only='xs'>
                 <Grid item sm={3} md={4}>
-                    <Link to="/tips">
-                        <div className="tipsImage"> 
-                            <img src="./assets/dating_tips.jpg" alt="dating tips"/>            
-                        </div>
-                    </Link>
+                    {
+                        (location.pathname != '/tips')? (
+                            
+                            <Link to="/tips">
+                                <div className="tipsImage"> 
+                                    <img src="./assets/dating_tips.jpg" alt="dating tips"/>            
+                                </div>
+                            </Link>
+                            
+                        ):(
+                                <span></span>
+                        )
+                    }
+
                 </Grid>
             </Hidden>
         </Grid>

@@ -26,7 +26,7 @@ export default function App() {
                 <div className="headerContent">
                   <Link to="/"><img src="./assets/logo.JPG" alt="logo"/></Link>       
                   <nav className="right"><br className="lineHack"/>
-                      Don't Haunt Alone!<br/>
+                      <strong>Don't Haunt Alone!</strong><br/>
                       <Link to="/">HOME</Link>&nbsp;&nbsp;
                       <Link to="/contact">CONTACT</Link>&nbsp;&nbsp;
                       <Link to="/join">JOIN</Link>

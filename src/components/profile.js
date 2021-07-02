@@ -44,12 +44,12 @@ export default function Profile() {
                     && filterdata.map((item)=>
                         <Grid item xs={12} sm={12} md={12} className="personCardItem" key={item.key}>
 
-                            <img src={item.picture} alt={item.name}/>
-                            <p><strong>Name: </strong>{item.name}</p>
+                            <img src={item.picture} alt={item.firstname}/>
+                            <p><strong>Name: </strong>{item.firstname}</p>
                             <p><strong>Age: </strong>{item.age}</p>
-                            <p><strong>Gender: </strong>{item.gender}</p>
+                            <p><strong>Gender: </strong>{item.gender} </p>
                             <p><strong>About: </strong>{item.about}</p>
-                            <p><strong>Nature of death: </strong>{item.died}</p>
+                            <p><strong>Nature of death: </strong>{item.death}</p>
 
                         </Grid>)
                 }
@@ -57,3 +57,4 @@ export default function Profile() {
 
     );
 }
+
