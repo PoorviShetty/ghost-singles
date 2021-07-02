@@ -3,6 +3,7 @@ import Grid from '@material-ui/core/Grid';
 import {
   Switch,
   Route,
+  Link
 } from "react-router-dom";
 import Hidden from '@material-ui/core/Hidden';
 
@@ -51,9 +52,11 @@ export default function Page() {
             </Grid>
             <Hidden only='xs'>
                 <Grid item sm={3} md={4}>
-                    <div className="tipsImage"> 
-                        <img src="./assets/dating_tips.jpg" alt="dating tips"/>            
-                    </div>
+                    <Link to="/tips">
+                        <div className="tipsImage"> 
+                            <img src="./assets/dating_tips.jpg" alt="dating tips"/>            
+                        </div>
+                    </Link>
                 </Grid>
             </Hidden>
         </Grid>

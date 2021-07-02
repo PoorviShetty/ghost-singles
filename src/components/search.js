@@ -30,7 +30,8 @@ export default function Search() {
         search: querystring.stringify(search)
       }
     );
-  }
+    //console.log(querystring.stringify(search));
+    }
 
   return (
     <Paper elevation={10} className="searchOuter">

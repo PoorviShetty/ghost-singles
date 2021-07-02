@@ -1,14 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import {
     useParams,
-    Link
   } from "react-router-dom";
 
 export default function Profile() {
     const { key } = useParams();
-    console.log(key) 
+
     const [data, setData]=useState([]);
     const getData=()=>{
         fetch('../data/ghosts.json',{
@@ -35,8 +33,6 @@ export default function Profile() {
         item => 
         item.key == key
     )
-    console.log(key)
-    console.log(filterdata)
 
 
     return (
